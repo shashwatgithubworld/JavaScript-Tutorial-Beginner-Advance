@@ -2,6 +2,7 @@ const name = "shashwat"
 const repoCount = 50
 
 // console.log(name + repoCount + " Value");
+//output = shashwat50 value
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
