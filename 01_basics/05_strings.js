@@ -7,7 +7,7 @@ const repoCount = 50
 // In modern JS we use backticks(``) for string interpolation. basically we create a place holder 
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
-//output => Hello my name is shashwat and my repo count is 50
+//output => Hello my name is shashwat and my repo count is 50.
 
 const gameName = new String('shashwat-singh')
 
