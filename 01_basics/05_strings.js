@@ -34,7 +34,7 @@ const url = "https://shashwat.com/shashwat%20singh"
 
 console.log(url.replace('%20', '-')) // Use replace to replace string 
 
-console.log(url.includes('sundar'))
+console.log(url.includes('sundar')) // we use include to check perticuler string available in this or not => reverts in True or False
 
 const gameName1 = new String('shashwat-raj-com')
 
