@@ -38,4 +38,4 @@ console.log(url.includes('sundar')) // we use include to check perticuler string
 
 const gameName1 = new String('shashwat-raj-com')
 
-console.log(gameName1.split('-'));
+console.log(gameName1.split('-'));  // Split methos of string takes an order and devide into ordered list and returns an Array ..
