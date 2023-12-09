@@ -32,7 +32,7 @@ console.log(newStringOne.trim()); // It remove white spaces from start and endin
 
 const url = "https://shashwat.com/shashwat%20singh"
 
-console.log(url.replace('%20', '-'))
+console.log(url.replace('%20', '-')) // Use replace to replace string 
 
 console.log(url.includes('sundar'))
 
