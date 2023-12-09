@@ -28,7 +28,7 @@ console.log(anotherString);
 
 const newStringOne = "   shashwat    "
 console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne.trim()); // It remove white spaces from start and ending.
 
 const url = "https://shashwat.com/shashwat%20singh"
 
