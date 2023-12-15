@@ -4,20 +4,27 @@ const mySym = Symbol("key1")
 
 
 const JsUser = {
-    name: "Hitesh",
-    "full name": "Hitesh Choudhary",
+    name: "Shashwat",
+    "full name": "Shashwat Singh",
     [mySym]: "mykey1",
     age: 18,
     location: "Jaipur",
-    email: "hitesh@google.com",
+    email: "shashwat@google.com",
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
 
-// console.log(JsUser.email)
-// console.log(JsUser["email"])
+// console.log(JsUser.email) => ways to access object
+// output => shashwat@google.com
+
+// console.log(JsUser["email"]) // another way to access object
+// output => shashwat@google.com
+
 // console.log(JsUser["full name"])
+// output => Shashwat Singh
+
 // console.log(JsUser[mySym])
+// output => mykey1
 
 JsUser.email = "hitesh@chatgpt.com"
 // Object.freeze(JsUser)
