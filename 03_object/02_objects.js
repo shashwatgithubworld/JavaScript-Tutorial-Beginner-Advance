@@ -47,7 +47,7 @@ const obj7 = {...obj1, ...obj2, ...obj3} // merging obj using spred operator
 const users = [
     {
         id: 1,
-        email: "h@gmail.com"
+        email: "s@gmail.com"
     },
     {
         id: 1,
@@ -55,18 +55,36 @@ const users = [
     },
     {
         id: 1,
-        email: "h@gmail.com"
+        email: "w@gmail.com"
     },
 ]
 
 users[1].email
+// console.log(users[1].email);
+// output => h@gmail.com
+
+
+const tinderUser1 = {}
+
+tinderUser1.id = "123abc"
+tinderUser1.name = "Sammy"
+tinderUser1.isLoggedIn = false
+
 // console.log(tinderUser);
+// output => { id: '123abc', name: 'Sammy', isLoggedIn: false }
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser)); // to find all the keys in a object returns in an array
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// output => [ 'id', 'name', 'isLoggedIn' ]
+
+// console.log(Object.values(tinderUser)); // to find all the values in a obj  returns in an array
+
+// output => [ '123abc', 'Sammy', false ]
+
+// console.log(Object.entries(tinderUser)); // to find all the keys and values returns in an array
+// output => [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
+
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // to check perperty is available in this array or not returns in boolean (true or false)
 
 
 const course = {
