@@ -26,17 +26,33 @@ const JsUser = {
 // console.log(JsUser[mySym])
 // output => mykey1
 
-JsUser.email = "hitesh@chatgpt.com"
-// Object.freeze(JsUser)
-JsUser.email = "hitesh@microsoft.com"
+JsUser.email = "shashwat@chatgpt.com" // that's how you can make changes in Obj
+
+// Object.freeze(JsUser) // you can freeze the obj if you want anyone to make changes.
+
+JsUser.email = "hitesh@microsoft.com" // after freeze this will not change 
 // console.log(JsUser);
+/* output => {
+  name: 'Shashwat',
+  'full name': 'Shashwat Singh',
+  age: 18,
+  location: 'Jaipur',
+  email: 'shashwat@chatgpt.com',
+  isLoggedIn: false,
+  lastLoginDays: [ 'Monday', 'Saturday' ],
+  [Symbol(key1)]: 'mykey1'
+}
+*/
 
 JsUser.greeting = function(){
     console.log("Hello JS user");
 }
 JsUser.greetingTwo = function(){
-    console.log(`Hello JS user, ${this.name}`);
+    console.log(`Hello JS user, ${this.name}`); // if you want to refrence of same obj 
 }
 
 console.log(JsUser.greeting());
+// output => Hello JS user
+
 console.log(JsUser.greetingTwo());
+// output => Hello JS user, shashwat
