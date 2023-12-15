@@ -4,6 +4,7 @@ const myArr1 = [0, 1, 2, 3, 4, 5]
 // console.log(myArr[1]);
 // output => 1
 
+
 const myHeors = ["shaktiman", "naagraj"]
 
 const myArr2 = new Array(1, 2, 3, 4) // another way to declare array

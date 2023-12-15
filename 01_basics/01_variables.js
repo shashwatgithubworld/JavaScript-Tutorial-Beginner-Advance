@@ -3,7 +3,6 @@ let accountEmail = "Shashwat@gmail.com";
 var accountPassword = "98765";
 accountCity = "Jaipur";
 
-
 //  accountId = 345678;  // Not allowed
 
 accountEmail = "Rajput@gmail.com";
