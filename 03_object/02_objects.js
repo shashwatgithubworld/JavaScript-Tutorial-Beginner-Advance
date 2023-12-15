@@ -87,27 +87,21 @@ tinderUser1.isLoggedIn = false
 // console.log(tinderUser.hasOwnProperty('isLoggedIn')); // to check perperty is available in this array or not returns in boolean (true or false)
 
 
+//**************   De-structuring ****************
+
 const course = {
-    coursename: "js in hindi",
+    coursename: "JavaScript",
     price: "999",
-    courseInstructor: "hitesh"
+    courseInstructor: "Shashwat"
 }
 
-// course.courseInstructor
+// console.log(course.courseInstructor);
+// output => shashwat
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course // de-structured
 
 // console.log(courseInstructor);
+// output => shashwat
 console.log(instructor);
+// output => shashwat
 
-// {
-//     "name": "hitesh",
-//     "coursename": "js in hindi",
-//     "price": "free"
-// }
-
-[
-    {},
-    {},
-    {}
-]
