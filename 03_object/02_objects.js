@@ -1,4 +1,5 @@
 // const tinderUser = new Object()
+
 const tinderUser = {}
 // this is how to add key and values in an object
 tinderUser.id = "123abc"
@@ -17,6 +18,7 @@ const regularUser = {
         }
     }
 }
+
 
 // console.log(regularUser.fullname.userfullname.firstname);
 // output => shashwat
@@ -38,10 +40,10 @@ const obj6 = {...obj1, ...obj2} // merging obj using spred operator
 // console.log(obj6);
 // output => { '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
 
+
 const obj7 = {...obj1, ...obj2, ...obj3} // merging obj using spred operator
 // console.log(obj7);
 // output => { '1': 'a', '2': 'b', '3': 'a', '4': 'b', '5': 'a', '6': 'b' }
-
 
 
 const users = [
@@ -58,6 +60,7 @@ const users = [
         email: "w@gmail.com"
     },
 ]
+
 
 users[1].email
 // console.log(users[1].email);
