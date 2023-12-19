@@ -62,8 +62,14 @@ superman
 //         break
 //     }
 //    console.log(`Value of i is ${index}`);
-    
 // }
+/* output => 
+Value of i is 1
+Value of i is 2
+Value of i is 3
+Value of i is 4
+Detected 5
+*/
 
 for (let index = 1; index <= 10; index++) {
     if (index == 5) {
