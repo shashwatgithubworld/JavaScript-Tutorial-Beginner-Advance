@@ -4,8 +4,8 @@
 //     console.log("shashwat");
 // }
 
-//*****  Comparison Operators ***** \\
 /*
+*****  Comparison Operators ***** 
 
   >	    greater than
   <	    less than
