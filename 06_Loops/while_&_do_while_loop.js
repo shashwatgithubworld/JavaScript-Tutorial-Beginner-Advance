@@ -34,6 +34,8 @@ My heros is superman
 
 let score = 1
 
+//*** Do while loop ***\\
+
 do {
     console.log(`Score is ${score}`);
     score++
