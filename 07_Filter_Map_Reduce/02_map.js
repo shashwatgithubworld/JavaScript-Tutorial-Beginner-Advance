@@ -46,7 +46,7 @@ Fr :- France
 ]
 */
 
-// Chaining using Map 
+// Chaining using Map and filter
 
 const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
