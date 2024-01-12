@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212121;
+    color: aliceblue;
+}
+#start, #stop{
+    padding: 18px;
+    margin: 30px;
+    font-size: medium;
+    border-radius: 6px;
+    box-shadow: 3px 3px rgb(49, 36, 36);
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    
+}
