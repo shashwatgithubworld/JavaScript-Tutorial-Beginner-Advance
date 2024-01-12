@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setTimeout</title>
+</head>
+<body>
+    <h1>I love my INDIA !</h1>
+    <button id="stop">Stop</button>
+
+
+    <script>
+        // setTimeout(function(){
+        //     console.log("Shashwat");
+        // }, 3000)
+
+            // const sayMyName = function(){
+            //     console.log("Shashwat");
+            // }
+            // setTimeout(sayMyName, 3000)
+
+            // document.querySelector('h1').innerHTML="INDIA is the Best";
+
+            const changeName = function(){
+                document.querySelector('h1').innerHTML="INDIA is the Best"};
+
+                const changeMe = setTimeout(changeName, 5000); // it will change the h1 to new text
+
+                // clearTimeout(changeMe);
+
+                document.querySelector('#stop').addEventListener('click', function(){
+                    clearTimeout(changeMe);
+                })
+
+    </script>
+</body>
+</html>
