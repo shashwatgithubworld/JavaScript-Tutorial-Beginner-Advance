@@ -19,6 +19,7 @@
 
 
 
+
 // **** IF ELSE ***** \\
 
 // const temprature = 32
@@ -66,6 +67,8 @@ if (balance < 500) {
 }
 */
 // output => less than 1200
+
+
 
 // ****** Logical Operators  ****** \\
 /*
