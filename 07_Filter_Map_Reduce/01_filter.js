@@ -36,7 +36,9 @@ const books = [
 
 //   const myBook = books.filter( (bk) => bk.genre === 'History' )
 //   console.log(myBook);
-/* Output => 
+
+/* 
+Output => 
 [
   {
     title: 'Book Three',
@@ -55,7 +57,9 @@ const books = [
 
 // const myBooks = books.filter( (bk) => { return bk.publish >= 2000})
 //   console.log(myBooks);
-/* Output => 
+
+/*
+Output => 
 [
   {
     title: 'Book Five',
